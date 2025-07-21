@@ -1,6 +1,6 @@
 import React from "react" 
-import CompUnd  from './CompUnd.jsx'
-function Card(){
+import CompUnd  from './CompUnd.jsx' // Componenet under componenet
+function Card(){                     // Functional componenet-1
     
     return (
     <>
