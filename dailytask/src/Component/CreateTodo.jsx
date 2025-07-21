@@ -14,7 +14,7 @@ const CreateTodo = () => {
     
   }
   
-  return (
+  return (              // Functional Componenet me eske return ke uper Java Script ka code likhte hain & return  ke niche HTML me {} ke under Java Script code ko use krte he
     <div>
     <h2> Task:{createTask()} </h2>
     <button> Add Task </button>
