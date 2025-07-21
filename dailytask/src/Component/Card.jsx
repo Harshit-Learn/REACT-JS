@@ -1,12 +1,12 @@
 import React from "react" 
 import CompUnd  from './CompUnd.jsx'
-
 function Card(){
+    
     return (
-    <div>
+    <>
          <h1>First component</h1>
          <CompUnd />
-</div>
+    </>
   
     
     );
