@@ -1,16 +1,21 @@
-import React from "react" 
-import CompUnd  from './CompUnd.jsx' // Componenet under componenet
-function Card(){                     // Functional componenet-1
-    
-    return (
-    <>                               // Fragement use except div jisse extra node nahi bnega
-         <h1>First component</h1>
-         <CompUnd />
-    </>
+import React from 'react'
+import UserCard from './UserCard'
+import Hook from './Hook'
+
+
+const Card = () => {
+  return (
+    <div>
+      <h1> This my first component</h1>
+
+      <UserCard name="harshit" Profession="Full Dev"/>
+      <UserCard name="mohan" Profession="Full Devops"/>
+       <Hook/>
+    </div>
    
+  )
+
   
-    
-    );
 }
 
-export default Card; // ye line likhne se aap jha chahe vha use kr kr skte he es functional com ponenet
+export default Card
