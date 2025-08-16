@@ -23,7 +23,7 @@ const Hook = () => {
       <h2> Counter  : {value>20? "stop" : value && value<0? "stop" : value }</h2>
       <button onClick = {addValue} style = {{  backgroundColor:"pink" }}> add+1</button> <br></br> <br></br>
       <button onClick = {remove} style = {{  backgroundColor:"pink" }}> Sub-1</button>
-      {/* <h3>Counter check: {value}</h3> */}
+      <h3>Counter check: {value}</h3>
 
     </div>
   )
